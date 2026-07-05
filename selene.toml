@@ -1,0 +1,31 @@
+[project]
+include = ["**/*.luau"]
+exclude = ["**/tests/**", "**/.git/**", "**/vendor/**"]
+
+[selene]
+std = "roblox"
+
+[settings]
+max-line-length = 100
+indent-type = "spaces"
+indent-width = 2
+
+[checks]
+enable = [
+  "no-unused-variable",
+  "shadowing-redefinition",
+  "redundant-return",
+  "unreachable-code",
+  "unused-return-value",
+  "undefined-global",
+  "unnecessary-condition",
+  "infinite-loop",
+]
+disable = [
+  "line-length",
+  "duplicate-table-key",
+]
+
+[report]
+summary = true
+color = true
