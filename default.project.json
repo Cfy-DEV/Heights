@@ -15,6 +15,10 @@
       "StarterPlayerScripts": {
         "$path": "src/client"
       }
+    },
+
+    "ReplicatedFirst": {
+      "$path": "src/r-first"
     }
   }
 }
